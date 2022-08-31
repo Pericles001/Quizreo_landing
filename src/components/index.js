@@ -1,3 +1,4 @@
 import {About} from "./About/About";
+import {Feature} from "./Feature/Feature";
 
-export {About};
+export {About, Feature};
