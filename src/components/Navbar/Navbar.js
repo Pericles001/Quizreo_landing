@@ -12,7 +12,7 @@ export function Navbar() {
                 </nav>
             </Breakpoint>
             <Breakpoint medium up>
-                <nav className="p-2 Navbar navbar fixed-top" style={{borderBottom: "black 2px solid"}}>
+                <nav className="p-2 Navbar navbar" style={{borderBottom: "black 2px solid"}}>
                     <span className="navbar-brand mb-0 h1">Quizreo</span>
                     <div className="mb-0 justify-content-between align-items-left d-flex flex-row">
                         <ul  className="p-2 list-inline">
