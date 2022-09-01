@@ -17,7 +17,7 @@ export function Features() {
         <div className="Features">
             <Breakpoint small down>
                 <div className="container-fluid">
-                    <div className="row justify-content-center">
+                    <div id="FeaturesSec" className="row justify-content-center">
 
                         {shuffle.map((item) => (
                             <div className="col-sm-12 mt-5 mb-2">
@@ -30,7 +30,7 @@ export function Features() {
             </Breakpoint>
             <Breakpoint medium up>
                 <div className="container-fluid">
-                    <div className="row">
+                    <div id="FeaturesSec" className="row">
 
                         {shuffle.map((item) => (
                             <div className="col-md-4 mt-5 mb-5">
