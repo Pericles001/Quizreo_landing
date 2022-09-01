@@ -1,19 +1,17 @@
 import React from 'react';
-import {Breakpoint} from "react-socks";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-export function Feature() {
+export function Feature(props) {
+
     return (
         <div>
-            <Breakpoint medium>
-                <div>
-                    <h1>Feature</h1>
+            <div className="card" style={{width: "18rem"}}>
+                <img className="card-img-top" src={props.source} alt={props.dest}></img>
+                <div className="card-body">
+                    <h5 className="card-title">{props.title}</h5>
+                    <ul className="card-text">{props.items}</ul>
                 </div>
-            </Breakpoint>
-            <Breakpoint large up>
-                <div>
-                    <h1>Bonsoir</h1>
-                </div>
-            </Breakpoint>
+            </div>
         </div>
     );
 }
