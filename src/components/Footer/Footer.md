@@ -1,5 +1,5 @@
 # Footer
 
-Description of component
+Footer component for the application.
 
     <Footer/>
