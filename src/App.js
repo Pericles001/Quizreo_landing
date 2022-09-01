@@ -8,7 +8,7 @@ function App() {
         <BreakpointProvider>
             <div className="App">
                 <Navbar/>
-                <About/>
+                <About source="https://cdn.pixabay.com/photo/2018/09/22/12/31/cat-3695213_1280.jpg" det="Quiz sample" width="80%" />
                 <Feature/>
                 <Footer/>
             </div>
