@@ -2,8 +2,9 @@ import React from 'react';
 import {ComponentPreview, Previews} from '@react-buddy/ide-toolbox';
 import {PaletteTree} from './palette';
 import App from "../App";
-import {About, Feature} from "../components";
+import {About, Feature, Footer} from "../components";
 import {Features} from "../components/Feature/Features";
+import {GetStarted} from "../components/GetStarted/GetStarted";
 
 const ComponentPreviews = () => {
     return (
@@ -19,6 +20,12 @@ const ComponentPreviews = () => {
             </ComponentPreview>
             <ComponentPreview path="/Features">
                 <Features/>
+            </ComponentPreview>
+            <ComponentPreview path="/GetStarted">
+                <GetStarted/>
+            </ComponentPreview>
+            <ComponentPreview path="/Footer">
+                <Footer/>
             </ComponentPreview>
         </Previews>
     );
