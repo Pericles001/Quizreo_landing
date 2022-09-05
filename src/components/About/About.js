@@ -19,7 +19,7 @@ export function About(props) {
         <div className="About">
             <Breakpoint small down>
                 <div className="container-fluid">
-                    <div className="row">
+                    <div id="AboutSec" className="row">
                         <div className="col-sm-12 mt-5 mb-2">
                             <img src={props.source} alt={props.det} width={props.width} height="50%"/>
                             <ul className="p-5">
@@ -31,7 +31,7 @@ export function About(props) {
             </Breakpoint>
             <Breakpoint medium up>
                 <div className="container-fluid">
-                    <div className="row">
+                    <div id="AboutSec" className="row">
                         <div className="col-md-6 mt-5 mb-5">
                             <img src={props.source} alt={props.det} width={props.width}/>
                         </div>

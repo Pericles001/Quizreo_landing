@@ -17,13 +17,13 @@ export function Navbar() {
                     <div className="mb-0 justify-content-between align-items-left d-flex flex-row">
                         <ul  className="p-2 list-inline">
                             <li className="list-inline-item">
-                                <a className="text-decoration-none text-dark" href="#">About</a>
+                                <a className="text-decoration-none text-dark" href="#AboutSec">About</a>
                             </li>
                             <li className="list-inline-item">
-                                <a className="text-decoration-none text-dark" href="#">Features</a>
+                                <a className="text-decoration-none text-dark" href="#FeaturesSec">Features</a>
                             </li>
                             <li className="list-inline-item">
-                                <a className="text-decoration-none text-dark" href="#">Get Started</a>
+                                <a className="text-decoration-none text-dark" href="#StartSec">Get Started</a>
                             </li>
                         </ul>
                     </div>
